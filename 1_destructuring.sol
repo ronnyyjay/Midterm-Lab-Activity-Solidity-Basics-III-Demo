@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.20;
 
 contract DestructuringSol {
     function multiOutput() public pure returns(uint, bool) {
@@ -24,5 +24,5 @@ contract DestructuringSol {
     }
 
     // Define an event to log the values
-    event LogValues(uint indexed a, bool indexed b);
+    event LogValues(uint a, bool b);
 }
